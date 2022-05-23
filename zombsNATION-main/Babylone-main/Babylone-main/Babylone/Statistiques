@@ -1,0 +1,89 @@
+Alliés
+    Luffy :
+        energy = 5
+        health = 140
+        damages multiplicator = 5
+        chances de toucher = 100
+        chances d'esquiver = 70
+        Attaques :
+            Nom de l'attaque : Gum Gum Pistol
+            Dégâts : 6-11
+            Coûts en énergie : 1
+            Multiplicateur de dégâts : 3
+            Chances de toucher : 100
+
+            Nom de l'attaque : Gum Gum Bazooka
+            Dégâts : 8-12
+            Coûts en énergie : 2
+            Multiplicateur de dégâts : 4
+            Chances de toucher : 80
+
+            Nom de l'attaque : Gum Gum GatlingGun
+            Dégâts : 12-17
+            Coûts en énergie : 3
+            Multiplicateur de dégâts : 3
+            Chances de toucher : 70
+    Naruto :
+        energy = 10
+        health = 200
+        damages multiplicator = 4
+        chances de toucher = 80
+        chances d'esquiver = 100
+        Attaques :
+            Nom de l'attaque : Rasengan
+            Dégâts : 11-16
+            Coûts en énergie : 3
+            Multiplicateur de dégâts : 3
+            Chances de toucher : 70
+
+            Nom de l'attaque : Multiclonage
+            Dégâts : 7-11
+            Coûts en énergie : 2
+            Multiplicateur de dégâts : 4
+            Chances de toucher : 80
+
+            Nom de l'attaque : Naruto Rendan
+            Dégâts : 6-9
+            Coûts en énergie : 1
+            Multiplicateur de dégâts : 3
+            Chances de toucher : 100
+    Goku :
+        energy = 8
+        health = 170
+        damages multiplicator = 3
+        chances de toucher = 70
+        chances d'esquiver = 80
+        Attaques :
+            Nom de l'attaque : Kamehameha
+            Dégâts : 12-16
+            Coûts en énergie : 3
+            Multiplicateur de dégâts : 3
+            Chances de toucher : 70
+
+            Nom de l'attaque : Garlick Gun
+            Dégâts : 7-12
+            Coûts en énergie : 2
+            Multiplicateur de dégâts : 4
+            Chances de toucher : 80
+
+            Nom de l'attaque : Kaioken
+            Dégâts : 5-9
+            Coûts en énergie : 1
+            Multiplicateur de dégâts : 3
+            Chances de toucher : 100
+		
+Ennemis
+    Kirua :
+        health = 8
+        damages = 4
+        chances de toucher = -30
+
+    All Might :
+        health = 8
+        damages = 3
+        chances de toucher = -60
+
+    Ichigo :
+        health = 6
+        damages = 4		
+        chances de toucher = -40
