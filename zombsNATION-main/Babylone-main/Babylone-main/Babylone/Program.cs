@@ -57,6 +57,15 @@ namespace MyProgram {
                                     Console.WriteLine("----------");
                                     Character.Attaque(whoStarts, whoFollows, ListeAttaques, attaqueChoisie, _whoStarts);
                                     Thread.Sleep(Program.sleepTime);
+
+                                    if (whoStarts.health <= 0) {
+                                        winner = _whoFollows;
+                                        fight = false;
+                                    }
+                                    if (whoFollows.health <= 0) {
+                                        winner = _whoStarts;
+                                        fight =false;
+                                    }
                                     break;
 
                                 case 2:
@@ -87,6 +96,7 @@ namespace MyProgram {
                             switch (choixAction) {
                                 case 1:
                                     attaqueChoisie = choixAttaque(whoStarts, ListeAttaques, _whoStarts);
+                                    Character.Attaque(whoStarts, whoFollows, ListeAttaques, attaqueChoisie, _whoStarts);
                                     break;
 
                                 case 2:
@@ -95,6 +105,7 @@ namespace MyProgram {
                                     break;
                             }
                         break;
+                        
                     }
 
                 }
@@ -183,6 +194,7 @@ namespace MyProgram {
                             switch (choixAction) {
                                 case 1:
                                     attaqueChoisie = choixAttaque(whoFollows, ListeAttaques, _whoFollows);
+                                    Character.Attaque(whoFollows, whoStarts, ListeAttaques, attaqueChoisie, _whoFollows);
                                     break;
 
                                 case 2:
